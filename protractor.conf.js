@@ -8,6 +8,7 @@ const conf = {
     },
     onPrepare() {
         browser.waitForAngularEnabled(false)
+        browser.driver.manage().window().maximize();
     },
     SELENIUM_PROMISE_MANAGER: false
   };
